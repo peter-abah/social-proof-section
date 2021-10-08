@@ -34,3 +34,142 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+
+
+/* GENERAL */
+:root {
+  --very-dark-magneta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-gray-magneta: hsl(303, 10%, 53%);
+  --light-gray-magneta: hsl(300, 24%, 96%);
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0 1.5rem;
+  font-family: Spartan, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+
+/* HEADER */
+header {
+  margin: 5rem 0 50px;
+  text-align: center;
+}
+
+h1 {
+  width: 300px;
+  margin: 0 auto 1.2rem;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--very-dark-magneta);
+}
+
+h2 {
+  font-size: .875rem;
+  font-weight: 500;
+  color: var(--dark-gray-magneta);
+}
+
+
+/* STAR REVIEWS */
+.star-reviews {
+  margin: 2.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.star-review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin-bottom: .675rem;
+  background-color: var(--light-gray-magneta);
+  border-radius: .5rem;
+}
+
+.star-review img {
+  margin: 0 2px;
+}
+
+.star-review p {
+  margin-top: .5rem;
+  font-size: .8125rem;
+  font-weight: 700;
+  color: var(--very-dark-magneta);
+}
+
+
+/* USER REVIEWS */
+.user-reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.user-review {
+  padding: 2.2rem;
+  border-radius: .5rem;
+  background-color: var(--very-dark-magneta);
+  color: #fff;
+}
+
+.user-info {
+  display: flex;
+  margin-bottom: 1.5rem;
+  font-size: .8125rem;
+}
+
+.user-info img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-right: 1.2rem;
+}
+
+.user-name { font-weight: 700; }
+.user-status {
+  font-weight: 400;
+  color: var(--soft-pink);
+}
+
+.review {
+  line-height: 1.75;
+  font-size: .8125rem;
+}
+
+
+/* FOOTER */
+footer {
+  margin-bottom: 1rem;
+}
+
+.attribution {
+  font-size: .8125rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--very-dark-magneta);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}

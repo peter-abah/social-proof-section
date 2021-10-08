@@ -4,18 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
   <title>Frontend Mentor | Social proof section</title>
-  <style>
-  .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
-  </style>
 </head>
 
 <body>
@@ -67,14 +61,14 @@
       <div class="user-info">
         <img src="images/image-colton.jpg" alt="Colton Smith">
         <div>
-          <p>Colton Smith</p>
-          <p>Verified Buyer</p>
+          <p class="user-name">Colton Smith</p>
+          <p class="user-status">Verified Buyer</p>
         </div>
       </div>
       <p class="review">
-        "We needed the same printed design as the one we had ordered a week 
+        " We needed the same printed design as the one we had ordered a week 
         prior. Not only did they find the original order, but we also received 
-        it in time. Excellent!"
+        it in time. Excellent! "
       </p>
     </div>
 
@@ -82,37 +76,39 @@
       <div class="user-info">
         <img src="images/image-irene.jpg" alt="Irene Roberts">
         <div>
-          <p>Irene Roberts</p>
-          <p>Verified Buyer</p>
+          <p class="user-name">Irene Roberts</p>
+          <p class="user-status">Verified Buyer</p>
         </div>
-        <p class="review">
-          "Customer service is always excellent and very quick turn around. 
-          Completely delighted with the simplicity of the purchase and the 
-          speed of delivery."
-        </p>
       </div>
+      <p class="review">
+        " Customer service is always excellent and very quick turn around. 
+        Completely delighted with the simplicity of the purchase and the 
+        speed of delivery."
+      </p>
     </div>
 
     <div class="user-review">
-      <img src="images/image-anne.jpg" alt="Anne Wallace">
       <div class="user-info">
-        <p>Anne Wallace</p>
-        <p>Verified Buyer</p>
+        <img src="images/image-anne.jpg" alt="Anne Wallace">
+        <div>
+          <p class="user-name">Anne Wallace</p>
+          <p class="user-status">Verified Buyer</p>
+        </div>
       </div>
       <p class="review">
-        "Put an order with this company and can only praise them for the very 
+        " Put an order with this company and can only praise them for the very 
         high standard. Will definitely use them again and recommend them to 
-        everyone!"
+        everyone! "
       </p>
     </div>
   </section>
   
   <footer>
     <div class="attribution">
-      Challenge by
+      <b>Challenge</b> by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-      Frontend Mentor</a>.
-      Coded by
+      Frontend Mentor</a>. <br>
+      <b>Created by</b>
       <a href="https://github.com/peter-abah" target="_blank">Peter Abah</a>.
     </div>
   </footer>
